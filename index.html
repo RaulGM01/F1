@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Fórmula 1</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Pilotos</a>
+            <a href="#">Escuderias</a>
+            <a href="#">Circuitos</a>
+            <a href="#">Noticias</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>El Gran Circo del Automovilismo</h2>
+        <p>La Fórmula 1 es la competición automovilística más prestigiosa del mundo. Con tecnología de vanguardia, los mejores pilotos y las escuderías más competitivas, cada carrera es una batalla épica por la gloria.</p>
+
+        <div class="grid">
+            <div class="grid-item">
+                <h3>Pilotos</h3>
+                <p>Conoce a los pilotos que luchan por la victoria en cada Gran Premio. De leyendas como Lewis Hamilton a futuras estrellas como Max Verstappen.</p>
+            </div>
+            <div class="grid-item">
+                <h3>Equipos</h3>
+                <p>Las mejores escuderías de la F1, como Mercedes, Ferrari y Red Bull, compiten con sus máquinas de alta tecnología para dominar el campeonato.</p>
+            </div>
+            <div class="grid-item">
+                <h3>Circuitos</h3>
+                <p>Descubre los circuitos legendarios como Mónaco, Monza y Silverstone, donde la historia de la F1 se ha escrito durante décadas.</p>
+            </div>
+            <div class="grid-item">
+                <h3>Noticias</h3>
+                <p>Mantente al día con las últimas noticias sobre el campeonato, resultados, rumores de fichajes y más.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2024 Fórmula 1 - Todos los derechos reservados
+    </footer>
+
+
+    <!-- Código del chatbot de Watsonx Assistant -->
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "988e171c-c418-4160-9eef-f08d3bc5f32c", // ID de integración
+            region: "au-syd", // Región del asistente
+            serviceInstanceID: "5501ef09-23c4-478f-aaf6-e9e35e0873ee", // ID de instancia de servicio
+            onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+            const script = document.createElement('script');
+            script.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/latest/WatsonAssistantChatEntry.js";
+            document.head.appendChild(script);
+        });
+    </script>
+    
+</body>
+</html>
